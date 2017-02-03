@@ -1,11 +1,10 @@
-package p1;
-
 public class Hello{
-    //public static void main(String[] args){
-    public Hello(){}
 
-    public void evaluate(){
-        System.out.println("Hello, World!");    
+    public Hello(){
+    }
+
+    public evaluate(String[] args){
+        System.out.println("Hello, Eric!");    
     }
 }
 
