@@ -32,7 +32,7 @@ public class HelloTest {
         h.evaluate();
      //   System.setOut(new PrintStream(outContent));
         
-        String expectedOutput = "Hello, World!\n";
+        String expectedOutput = "Hello, Eric!\n";
         assertEquals(expectedOutput, outContent.toString());
 //        assertEquals(expectedOuput, expectedOutput);
     }
