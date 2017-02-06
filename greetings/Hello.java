@@ -24,7 +24,12 @@ public class Hello{
 
     public void evaluate(){
         String name = uname.substring(0,1).toUpperCase() + uname.substring(1);
-        System.out.println("Hello, " + name + "!");
+       
+        if(compName != null){ 
+            System.out.println("Hello " + name + ". My name is " + compName + ". How are you today, " + name +  "?");
+        } else {
+            System.out.println("Hello, " + name + "!");
+        }
     }
 }
 
