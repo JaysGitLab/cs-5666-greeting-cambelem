@@ -29,12 +29,21 @@ public class HelloTest {
     @Test
     public void evaluatesHello() {
         Hello h = new Hello();
-        h.evaluate();
+        String[] x = new String[5];
+        x[0] = "test";
+        h.evaluate(x);
      //   System.setOut(new PrintStream(outContent));
         
         String expectedOutput = "Hello, Eric!\n";
         assertEquals(expectedOutput, outContent.toString());
 //        assertEquals(expectedOuput, expectedOutput);
+    }
+
+    public void evaluatesHello2() {
+        Hello h = new Hello();
+        //h.evaluate(System.getProerty("num"));
+
+
     }
 }
 
